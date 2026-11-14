@@ -1,0 +1,205 @@
+[
+  {
+    "id":"q01","section":"第一部 · 街区的日常","title":"放学后的读书桌",
+    "scene":"放学后，街角书店借出一张桌子，让学生交换读书心得。你认识其中两人，也有几张生面孔；没有老师主持，你会怎样度过这一小时？",
+    "dimensionKeys":["initiative","affiliation","expression"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"先把喜欢的一段读给大家听，再邀请生面孔接话；我愿意和整桌人一起把讨论慢慢展开。","score":{"initiative":7,"affiliation":7,"expression":7},"tradeoff":"更容易打开共同话题，也要投入热场的精力。"},
+      {"text":"坐在熟悉的朋友旁边，等她们聊到我读过的部分再补充；先让已有的小圈子自在起来。","score":{"initiative":3,"affiliation":6,"expression":4},"tradeoff":"熟悉关系得到照顾，但认识新人的机会较少。"},
+      {"text":"找一处边角先安静读书，听到真正感兴趣的问题才简短回应；这小时也可以留给自己。","score":{"initiative":2,"affiliation":2,"expression":2},"tradeoff":"保留独处与阅读的空间，也可能少参与一次交流。"}
+    ]
+  },
+  {
+    "id":"q02","section":"第一部 · 街区的日常","title":"邻城的公开课",
+    "scene":"邻城学校周六开设一堂公开课，去听或留在街区读书都不影响成绩。车费可以承担，学校给了推荐路线，你会怎样安排这次机会？",
+    "dimensionKeys":["planning","risk","authority"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"照学校推荐的路线查好班次，带齐笔记与回程车费再去；我希望陌生的一天有明确支点。","score":{"planning":7,"risk":2,"authority":7},"tradeoff":"行程更有把握，可探索的空间也相应缩小。"},
+      {"text":"按自己的兴趣选课，只记下回程末班车，路上再找教室；愿意接住一些临时的小变数。","score":{"planning":2,"risk":7,"authority":2},"tradeoff":"选择更自由，也需要临场处理走错路等麻烦。"},
+      {"text":"先比较课程和自己正在读的书，若收获相近就留在书店；把确定的时间用在已有目标上。","score":{"planning":6,"risk":2,"authority":2},"tradeoff":"减少旅途的不确定，也放弃现场相遇的可能。"}
+    ]
+  },
+  {
+    "id":"q03","section":"第一部 · 街区的日常","title":"借出一本笔记",
+    "scene":"朋友想借你的课堂笔记，准备带几位同学一起复习。你也要使用这本笔记，但时间尚可商量；你更愿意怎样加入这次复习安排？",
+    "dimensionKeys":["boundary","affiliation","influence"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"把笔记留给她们轮流看，自己用空余时段补读；跟着大家的复习进度，哪里需要就帮哪里。","score":{"boundary":2,"affiliation":7,"influence":2},"tradeoff":"集体安排更方便，自己的使用时间会受到挤压。"},
+      {"text":"约好借还时段，再召集大家定一份复习顺序；我愿意一起读，但希望自己的时间也清楚。","score":{"boundary":7,"affiliation":6,"influence":7},"tradeoff":"责任与时间更明确，也承担协调进度的工作。"},
+      {"text":"请她抄走需要的几页，原本仍留给自己使用；她们另定复习安排，我不进入这个小组。","score":{"boundary":7,"affiliation":2,"influence":2},"tradeoff":"个人节奏得以保留，持续合作的机会会少一些。"}
+    ]
+  },
+  {
+    "id":"q04","section":"第一部 · 街区的日常","title":"文章末尾的名字",
+    "scene":"学校小报准备登你的短文，老师建议沿用上次的笔名，朋友觉得这篇可以署真名。没有硬性规定，稿件也还不急着交，你会怎样决定？",
+    "dimensionKeys":["expression","reflection","authority"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"沿用老师建议的笔名和上次的写法，让文字先被阅读；不再逐段回想这篇与自己的关系。","score":{"expression":2,"reflection":2,"authority":7},"tradeoff":"保持熟悉的呈现方式，个人身份仍留在文字后面。"},
+      {"text":"重读文章，想清楚哪些话愿意由自己承担，再署真名；这次按自己的判断向读者露面。","score":{"expression":7,"reflection":7,"authority":2},"tradeoff":"身份与文字连在一起，也更直接面对读者回应。"},
+      {"text":"重读后仍选笔名，把容易误读的地方改清楚；听取老师的经验，但不完全照旧稿处理。","score":{"expression":2,"reflection":7,"authority":5},"tradeoff":"表达更审慎，修改会多花一些时间与心力。"}
+    ]
+  },
+  {
+    "id":"q05","section":"第一部 · 街区的日常","title":"书店临时换桌",
+    "scene":"你与朋友原本约好在书店整理旧书，到了才发现常用桌子被借走，店主说院子也能用。今天只是普通帮忙，不必赶工，你会怎样开始？",
+    "dimensionKeys":["initiative","adaptability","influence"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"先把几箱书搬到院子，提议换成边晒边分的办法，再给大家分好位置，趁现在开始做。","score":{"initiative":7,"adaptability":7,"influence":7},"tradeoff":"工作很快转起来，也要承担新安排是否合用的责任。"},
+      {"text":"先等店主腾出原来的桌子，朋友若想聊天我就陪着；继续按熟悉的办法做更顺手。","score":{"initiative":2,"adaptability":2,"influence":2},"tradeoff":"维持熟悉流程，开始工作的时间会往后推。"},
+      {"text":"主动问朋友想在哪里整理，她们选好后我再搬书；地点可以变，我更愿意配合现成分工。","score":{"initiative":6,"adaptability":7,"influence":2},"tradeoff":"促进讨论而不领头，具体方案仍要等别人决定。"}
+    ]
+  },
+  {
+    "id":"q06","section":"第一部 · 街区的日常","title":"海边的一天",
+    "scene":"工厂休息日，你有一笔小额余钱，可以去海边，也可以留在城里。朋友给了几种熟悉的去处，你想让这一天舒服些，会怎样作决定？",
+    "dimensionKeys":["planning","risk","reflection"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"照上次舒服的路线查好车次和花费，再带同样的午餐；让休息日延续已经合适的安排。","score":{"planning":7,"risk":2,"reflection":2},"tradeoff":"休息较有把握，也减少发现新去处的机会。"},
+      {"text":"回想上次哪里累、哪里开心，只带够回程的钱，换一处没去过的海岸，沿路再决定停留。","score":{"planning":2,"risk":7,"reflection":7},"tradeoff":"调整有了依据，陌生路线仍可能带来小麻烦。"},
+      {"text":"先重想自己最近需要什么，再列出花费和路线；若城里更合适，就把这次远行留到以后。","score":{"planning":7,"risk":2,"reflection":7},"tradeoff":"安排贴近当下需要，但准备过程占去部分闲暇。"}
+    ]
+  },
+  {
+    "id":"q07","section":"第一部 · 街区的日常","title":"缝纫台旁的帮忙",
+    "scene":"你在街区裁缝店帮半天忙，店里通常由学徒依次做同一道工序。邻桌想与你交换任务，店主说可以自行商量；你更愿意怎样处理？",
+    "dimensionKeys":["boundary","authority","adaptability"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"沿用店里的轮转办法，暂不和她交换任务；先把属于自己的这一道工序做完再休息。","score":{"boundary":7,"authority":7,"adaptability":2},"tradeoff":"职责清楚、流程熟悉，互相换手的空间较少。"},
+      {"text":"按两人手上的活自己判断，愿意和她穿插着做；不细分每一小段是谁完成，顺手就好。","score":{"boundary":2,"authority":2,"adaptability":7},"tradeoff":"配合更灵活，个人工作范围会变得不那么清楚。"},
+      {"text":"自己判断哪些工序适合交换，把交换的数量说清再试；调整做法，但各自的份额仍明确。","score":{"boundary":7,"authority":2,"adaptability":7},"tradeoff":"能够试新分工，也需要多一次界定与商量。"}
+    ]
+  },
+  {
+    "id":"q08","section":"第一部 · 街区的日常","title":"两封远方来信",
+    "scene":"两位离开街区求学的朋友分别寄来信，谈到新学校，也问起你的近况。回信没有时限，邮局每周都开门；你通常会怎样安排回应？",
+    "dimensionKeys":["initiative","planning","affiliation"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"当晚想到什么就写什么，第二天主动寄出，再邀请她们轮流交换消息，保持共同的谈话。","score":{"initiative":7,"planning":2,"affiliation":7},"tradeoff":"联络及时，内容与后续寄信时间不一定整齐。"},
+      {"text":"先列出要回应的事情，约定每月写信的日子，并主动问她们愿不愿意一起维持这个节奏。","score":{"initiative":7,"planning":7,"affiliation":7},"tradeoff":"关系有稳定节奏，也会形成需要照顾的约定。"},
+      {"text":"先继续自己的读书安排，等有空再把想说的事写齐；分别寄给她们，不另发起共同通信。","score":{"initiative":2,"planning":6,"affiliation":2},"tradeoff":"生活节奏由自己掌握，回应与共同消息会少一些。"}
+    ]
+  },
+  {
+    "id":"q09","section":"第一部 · 街区的日常","title":"相近的作文分数",
+    "scene":"你和好友的作文得了相近的分数，老师说风格各有长处。午后她想一起看看两篇文章，既不是竞赛也不必修改，你希望怎样聊这件事？",
+    "dimensionKeys":["expression","influence","reflection"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"先说出我对两篇文章的看法，带着她比较各自的写法，再一起回看哪些选择值得继续。","score":{"expression":7,"influence":7,"reflection":7},"tradeoff":"讨论深入而有方向，我的判断也更占据谈话空间。"},
+      {"text":"先听她最想谈的段落，简短回应喜欢的地方；不拆解写法，照各自原来的方式继续写。","score":{"expression":2,"influence":2,"reflection":2},"tradeoff":"保留轻松与各自节奏，细看差异的机会较少。"},
+      {"text":"把自己的感受坦白说给她听，再由她挑要比较的段落；陪她回看，也重想自己的写法。","score":{"expression":7,"influence":2,"reflection":7},"tradeoff":"表达充分而让出方向，讨论进度更多跟随朋友。"}
+    ]
+  },
+  {
+    "id":"q10","section":"第一部 · 街区的日常","title":"留下或试住",
+    "scene":"一位熟人邀你去邻城书店试做两周，街区的工作也愿意继续留你。两边收入相近，住所都有着落；你对这一段生活会作怎样的选择？",
+    "dimensionKeys":["boundary","risk","adaptability"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"先留在熟悉的街区，清楚保留原来的上下工时间；这阶段不切换住处，也不额外兼两边。","score":{"boundary":7,"risk":2,"adaptability":2},"tradeoff":"日常稳妥且范围明确，也暂不体验另一种工作。"},
+      {"text":"去试住两周，愿意随着新店需要调整作息与任务；先进入新的日常，再摸索合适的边界。","score":{"boundary":2,"risk":7,"adaptability":7},"tradeoff":"能接触新环境，个人时间与工作范围可能浮动。"},
+      {"text":"留在街区，但试着换到新的工序，约定只试两周；承担一点未知，仍把工作的范围划清。","score":{"boundary":7,"risk":6,"adaptability":7},"tradeoff":"不搬家也能试变化，需要适应不熟悉的劳动。"}
+    ]
+  },
+  {
+    "id":"q11","section":"第一部 · 街区的日常","title":"旧教材的改动",
+    "scene":"夜校使用的旧教材有一页说法与你最近读到的书不同。老师允许带来补充材料，讨论也可以留到下周；你想怎样面对这处小小差异？",
+    "dimensionKeys":["initiative","authority","reflection"],"pressure":false,"weight":1,"type":"轻题",
+    "options":[
+      {"text":"主动带来新书，把两处说法重新对照，再提议讨论；不因教材沿用多年就先接受它的解释。","score":{"initiative":7,"authority":2,"reflection":7},"tradeoff":"有机会更新理解，也需要准备并面对不同意见。"},
+      {"text":"先继续按教材学习，等老师讲到这一页再听解释；暂时沿着熟悉的线索，不另起讨论。","score":{"initiative":2,"authority":7,"reflection":2},"tradeoff":"学习进度保持连贯，差异可能暂时没有被展开。"},
+      {"text":"课后自己重看两本书，先形成个人判断；等有人问到再分享，不主动改变这次课堂安排。","score":{"initiative":2,"authority":2,"reflection":7},"tradeoff":"留出独立思考的空间，班级未必听到这个新线索。"}
+    ]
+  },
+  {
+    "id":"q12","section":"第二部 · 短暂的岔路","title":"末班邮车之前",
+    "scene":"夜校课程申请今晚要随最后一班邮车寄走，你刚知道有一栏需要补写学习计划。离邮车出发还有半小时，材料够用；此刻你会怎样行动？",
+    "dimensionKeys":["initiative","planning","expression"],"pressure":true,"weight":1.25,"type":"压力题",
+    "options":[
+      {"text":"马上写出此刻最想学的事情，直接向柜员说明补交情况；边走边整理，不等措辞完全齐整。","score":{"initiative":7,"planning":2,"expression":7},"tradeoff":"迅速争取寄出，计划文字可能还不够完整。"},
+      {"text":"先列三条学习安排，主动请柜员确认寄出时刻，再清楚说明所需帮助，按顺序补齐材料。","score":{"initiative":7,"planning":7,"expression":7},"tradeoff":"步骤和表达更清晰，有限时间有一部分用于准备。"},
+      {"text":"先独自把计划与材料整理好，暂不出声催问；等柜员处理完前面的人，再递上完整申请。","score":{"initiative":2,"planning":7,"expression":2},"tradeoff":"递交时较齐整，等待可能压缩赶上邮车的余地。"}
+    ]
+  },
+  {
+    "id":"q13","section":"第二部 · 短暂的岔路","title":"展台上的共同作品",
+    "scene":"街区小型展览还有一小时开门，你和朋友合作的文字展台尚未摆好。她想让你接手全部布置，自己去招呼来宾；你会怎样处理这次分工？",
+    "dimensionKeys":["boundary","affiliation","influence"],"pressure":true,"weight":1.25,"type":"压力题",
+    "options":[
+      {"text":"先接过剩下的布置，让她去招呼大家；沿用她原定的展台样式，我们共同把开场撑起来。","score":{"boundary":2,"affiliation":7,"influence":2},"tradeoff":"共同开场较顺畅，自己临时承担的工作会增加。"},
+      {"text":"请她先留下十分钟，一起划清剩余任务；我带着她定好布置顺序，再各自完成约定部分。","score":{"boundary":7,"affiliation":7,"influence":7},"tradeoff":"共同责任更明确，也占用她接待来宾的时间。"},
+      {"text":"说明我只完成自己答应的区域，交回其余布置决定；各自做完各自的一份，不再临时合并。","score":{"boundary":7,"affiliation":2,"influence":2},"tradeoff":"保住个人范围，展台整体进度需要另作安排。"}
+    ]
+  },
+  {
+    "id":"q14","section":"第二部 · 短暂的岔路","title":"工序表有了差异",
+    "scene":"工厂下午要交一批普通包装，纸面工序与今天拿到的盒子尺寸不一致。领班允许自行选办法，不涉及机器安全；剩下两小时，你会怎样推进？",
+    "dimensionKeys":["authority","risk","adaptability"],"pressure":true,"weight":1.25,"type":"压力题",
+    "options":[
+      {"text":"先停下这批包装，请领班确认能否沿用旧工序；得到明确说明前，不另试新的折法。","score":{"authority":7,"risk":2,"adaptability":2},"tradeoff":"减少自行处理的不确定，交付时间会更紧。"},
+      {"text":"自己挑几个盒子试新折法，愿意花掉少量材料摸索；试得通就调整整批，不等统一示范。","score":{"authority":2,"risk":7,"adaptability":7},"tradeoff":"可能更快适配新尺寸，也可能损耗样品和时间。"},
+      {"text":"按领班给的备用工序先试一小组，通过后再分批调整；保留检查点，接受一定的试做损耗。","score":{"authority":7,"risk":4,"adaptability":7},"tradeoff":"变化仍有既定依据，分批检查使速度稍慢。"}
+    ]
+  },
+  {
+    "id":"q15","section":"第二部 · 短暂的岔路","title":"当场读到的署名",
+    "scene":"小报茶会即将结束，主持人读到你和朋友合作的文章时，只提了她的名字。可以散场后补正，也可以现在说明，没有处罚；你会怎样回应？",
+    "dimensionKeys":["expression","affiliation","reflection"],"pressure":true,"weight":1.25,"type":"压力题",
+    "options":[
+      {"text":"当场说明这篇由两人合作，再邀请朋友一起讲写作经过；先沿用我们的合作方式继续交流。","score":{"expression":7,"affiliation":7,"reflection":2},"tradeoff":"共同贡献及时被看见，现场话题也会因此转向。"},
+      {"text":"等散场后单独说明自己的部分，再独自回看今后怎样记录贡献；下次倾向各写各的文章。","score":{"expression":2,"affiliation":2,"reflection":7},"tradeoff":"保持现场安静，也暂时让署名不全的介绍留了下来。"},
+      {"text":"现在清楚补充两人的名字，散场后和她一起重看署名约定；仍合作，但把遗漏之处说开。","score":{"expression":7,"affiliation":7,"reflection":7},"tradeoff":"即时表达并保留合作，也需要承担后续谈话的心力。"}
+    ]
+  },
+  {
+    "id":"q16","section":"第二部 · 短暂的岔路","title":"闭店前的书箱",
+    "scene":"书店离闭门只剩四十分钟，新到的书箱比预计多了几只。几位帮忙的人都已到场，店主说未拆完可以明天继续；你会采用怎样的收尾方式？",
+    "dimensionKeys":["planning","influence","adaptability"],"pressure":true,"weight":1,"type":"压力题",
+    "options":[
+      {"text":"重新列出今晚必须完成的步骤，召集大家改成分组拆箱；我负责统筹，让收尾适应新数量。","score":{"planning":7,"influence":7,"adaptability":7},"tradeoff":"目标与新情况匹配，也增加重新安排和协调的工作。"},
+      {"text":"沿用原先逐箱整理的办法，按大家已经选的任务帮忙；做到关门为止，不另列收尾清单。","score":{"planning":2,"influence":2,"adaptability":2},"tradeoff":"避免打断熟悉节奏，未拆书箱的数量难以预先确定。"},
+      {"text":"听大家想把哪些箱子留到明天，再替这套新安排列好清单；不主持分工，但帮着稳住步骤。","score":{"planning":7,"influence":2,"adaptability":7},"tradeoff":"为共同方案提供准备，安排方向更多由别人决定。"}
+    ]
+  },
+  {
+    "id":"q17","section":"第三部 · 纸上的光色","title":"一本书的扉页",
+    "scene":"书店请你从几张样纸中选一张，做成送给朋友的书籍扉页。不必考虑价格与印制难度，也没有性格寓意；你只需挑最想多看一会儿的画面。",
+    "dimensionKeys":[],"pressure":false,"weight":1,"type":"审美题",
+    "options":[
+      {"text":"墨蓝线条勾出窗边书桌，留着可见的笔触和大片阴影；扉页像一张安静的旧版画，纸边略有磨痕。","score":{},"tradeoff":"偏向沉静的深浅层次，明亮跳色较少。","aesthetic":0},
+      {"text":"陶红色的小字压在粗纸上，旁边画着屋顶和窗框；画面温热而朴素，像晒过太阳的一小块墙面。","score":{},"tradeoff":"偏向温热的纸面触感，画面反差更醒目。","aesthetic":1},
+      {"text":"海绿色的植物线描绕着书名，纸底仍保留淡淡纹理；画面疏朗，像从书页间夹出的一片叶子。","score":{},"tradeoff":"偏向清润与疏朗，厚重的色块较少。","aesthetic":2}
+    ]
+  },
+  {
+    "id":"q18","section":"第三部 · 纸上的光色","title":"街角展览的海报",
+    "scene":"街角画室摆出几张小型展览海报，字体大小和信息都一样，只在图案、底色与纸张质感上不同。暂时不考虑摆放位置，你愿意留下哪一张？",
+    "dimensionKeys":[],"pressure":false,"weight":1,"type":"审美题",
+    "options":[
+      {"text":"赭金色的几何块面与细线叠在一起，纸面像旧剧院节目单；看得见层层压印留下的深浅纹路。","score":{},"tradeoff":"偏向有层次的暖色构成，留白空间较少。","aesthetic":3},
+      {"text":"月白色纸面只放几笔浅灰街景，边缘保留宽宽空白；远看简洁，近看能见到细小铅笔颗粒。","score":{},"tradeoff":"偏向轻盈与留白，远处的视觉冲击较弱。","aesthetic":4},
+      {"text":"墨蓝色大块阴影托着白色字形，图案是一扇半开的窗；构图边界清楚，像手工刻印的夜景。","score":{},"tradeoff":"偏向清楚的明暗结构，柔和过渡较少。","aesthetic":0},
+      {"text":"陶红色弧线沿着纸边舒展，中央留出清楚的标题；画面像印在粗陶上的图案，质感略带颗粒。","score":{},"tradeoff":"偏向温热而鲜明的图案，整体更引人注目。","aesthetic":1}
+    ]
+  },
+  {
+    "id":"q19","section":"第三部 · 纸上的光色","title":"海边速写的构图",
+    "scene":"海边的画摊摆出几幅同样大小的速写，画的都是没有人物的港湾。无需联想到自己的经历，也不评判画技；单看光色与构图，你想带走哪幅？",
+    "dimensionKeys":[],"pressure":false,"weight":1,"type":"审美题",
+    "options":[
+      {"text":"海绿色水面被细碎的波纹分开，岸线只占画角一小部分；纸底透出浅色，让港湾显得清润通透。","score":{},"tradeoff":"偏向通透的细节层次，轮廓的重量感较轻。","aesthetic":2},
+      {"text":"赭金色斜阳落在码头和屋墙上，大块光影相互交错；画面带着旧油画般的颗粒与温暖余光。","score":{},"tradeoff":"偏向丰厚的暖光，冷色空间相对较少。","aesthetic":3},
+      {"text":"月白色雾气覆盖远处船影，海与天之间只有淡淡一条线；构图留下宽阔空处，笔触很轻很薄。","score":{},"tradeoff":"偏向低反差与空阔，清晰细节有所减少。","aesthetic":4}
+    ]
+  },
+  {
+    "id":"q20","section":"第三部 · 纸上的光色","title":"信纸上的小印记",
+    "scene":"印刷铺准备给一套私人信纸加上小印记，四种方案使用同样的纸和字，只有图形与色调不同。不必据此表达身份或态度，你最喜欢哪一种？",
+    "dimensionKeys":[],"pressure":false,"weight":1,"type":"审美题",
+    "options":[
+      {"text":"墨蓝细线围成一扇窄窗，印记小而清楚，带一点刻版的断笔；整页仍留给手写的字与空白。","score":{},"tradeoff":"偏向克制的线条和暗色，装饰感较少。","aesthetic":0},
+      {"text":"陶红圆弧围住一枝简笔花，印得稍有深浅变化；小小图案像手盖的章，给信纸添一点暖意。","score":{},"tradeoff":"偏向温热的手工感，颜色更容易被注意。","aesthetic":1},
+      {"text":"海绿叶片以浅浅重叠的轮廓排在页角，线与线之间透着纸色；小印记像一段轻盈植物纹样。","score":{},"tradeoff":"偏向清润的自然纹样，图形边界较柔和。","aesthetic":2},
+      {"text":"赭金小方块围成疏密相间的边饰，近看带着压印的细纹；色块不大，却让纸面有些旧书质感。","score":{},"tradeoff":"偏向温暖的纹理与秩序，纸面留白略少。","aesthetic":3}
+    ]
+  }
+
+]
